@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1577622665028,
+  "timestamp": 1577698294774,
   "index": "https://joseluiseiguren.github.io/angular_pwa_example/index.html",
   "assetGroups": [
     {
@@ -49,10 +49,10 @@
     "https://joseluiseiguren.github.io/angular_pwa_example/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "https://joseluiseiguren.github.io/angular_pwa_example/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "https://joseluiseiguren.github.io/angular_pwa_example/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "https://joseluiseiguren.github.io/angular_pwa_example/index.html": "a6063abd579a9eba451a08ee98007dedcfb151f8",
+    "https://joseluiseiguren.github.io/angular_pwa_example/index.html": "7ff4b6937bfd7e26d123f5089840817808db5c45",
     "https://joseluiseiguren.github.io/angular_pwa_example/main-es2015.4fdf84535c6af2420f3d.js": "327a5a4a36b7e4f22177a2612ba0f70052eaf759",
     "https://joseluiseiguren.github.io/angular_pwa_example/main-es5.b6d1d091f569331c0df8.js": "937af99035ea1708bb68ecb509c9e12c25796449",
-    "https://joseluiseiguren.github.io/angular_pwa_example/manifest.webmanifest": "56f9a610dc075828bfb2cded5529fb58084ac38d",
+    "https://joseluiseiguren.github.io/angular_pwa_example/manifest.webmanifest": "c0be224fcc508459c22c1424f3094c31b506d82f",
     "https://joseluiseiguren.github.io/angular_pwa_example/polyfills-es2015.824ed6a46aafd5221e6b.js": "f33238825850a8007585a1a80e02e1248268682d",
     "https://joseluiseiguren.github.io/angular_pwa_example/polyfills-es5.920399604bb2dc2cacae.js": "9d9b583788005b7e2dc51d2b965f7c09b9180c60",
     "https://joseluiseiguren.github.io/angular_pwa_example/runtime-es2015.1d8c39bf8af8ca7126e9.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
