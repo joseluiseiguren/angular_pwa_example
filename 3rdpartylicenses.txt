@@ -95,13 +95,21 @@ THE SOFTWARE.
 
 @angular/material/dialog
 
+@angular/material/expansion
+
 @angular/material/form-field
+
+@angular/material/grid-list
 
 @angular/material/icon
 
 @angular/material/progress-spinner
 
 @angular/material/select
+
+@angular/material/slide-toggle
+
+@angular/material/tabs
 
 @angular/platform-browser
 MIT
