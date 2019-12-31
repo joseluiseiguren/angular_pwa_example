@@ -5,14 +5,38 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
-import { MatToolbarModule, MatCardModule, MatButtonModule } from  '@angular/material';
+import { MatToolbarModule, 
+         MatCardModule, 
+         MatButtonModule, 
+         MatButtonToggleModule, 
+         MatBadgeModule, 
+         MatProgressSpinnerModule,
+         MatFormFieldModule,
+         MatNativeDateModule,
+         MatInputModule,
+         MatSelectModule,
+         MatSlideToggleModule,
+         MatSidenavModule,
+         MatExpansionModule,
+         MatGridListModule,
+         MatTabsModule,
+         MatDialogModule,
+         MatSnackBarModule,
+         MatTableModule,
+         MatDatepickerModule } from  '@angular/material';
+
+import { MatStepperModule  } from '@angular/material/stepper';
+import { MatIconModule  } from '@angular/material/icon';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { MydialogComponent } from './mydialog/mydialog.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MydialogComponent
   ],
+  entryComponents: [ MydialogComponent ],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -21,6 +45,24 @@ import { environment } from '../environments/environment';
     MatToolbarModule,
     MatCardModule,
     MatButtonModule,
+    MatIconModule,
+    MatButtonToggleModule,
+    MatBadgeModule,
+    MatFormFieldModule,
+    MatProgressSpinnerModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
+    MatInputModule,
+    MatSelectModule,
+    MatSlideToggleModule,
+    MatSidenavModule,
+    MatExpansionModule,
+    MatGridListModule,
+    MatStepperModule,
+    MatTabsModule,
+    MatDialogModule,
+    MatSnackBarModule,
+    MatTableModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
