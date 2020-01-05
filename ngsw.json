@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1578217991515,
+  "timestamp": 1578222989720,
   "index": "https://joseluiseiguren.github.io/angular_pwa_example/index.html",
   "assetGroups": [
     {
@@ -10,8 +10,8 @@
       "urls": [
         "https://joseluiseiguren.github.io/angular_pwa_example/favicon.ico",
         "https://joseluiseiguren.github.io/angular_pwa_example/index.html",
-        "https://joseluiseiguren.github.io/angular_pwa_example/main-es2015.c72fb4b10c4c38c372b2.js",
-        "https://joseluiseiguren.github.io/angular_pwa_example/main-es5.0cb954c21f64c888f14d.js",
+        "https://joseluiseiguren.github.io/angular_pwa_example/main-es2015.8e9c772960c804e6f60c.js",
+        "https://joseluiseiguren.github.io/angular_pwa_example/main-es5.e44c1fc18c1cfbf77348.js",
         "https://joseluiseiguren.github.io/angular_pwa_example/manifest.webmanifest",
         "https://joseluiseiguren.github.io/angular_pwa_example/polyfills-es2015.824ed6a46aafd5221e6b.js",
         "https://joseluiseiguren.github.io/angular_pwa_example/polyfills-es5.920399604bb2dc2cacae.js",
@@ -49,9 +49,9 @@
     "https://joseluiseiguren.github.io/angular_pwa_example/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "https://joseluiseiguren.github.io/angular_pwa_example/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "https://joseluiseiguren.github.io/angular_pwa_example/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "https://joseluiseiguren.github.io/angular_pwa_example/index.html": "74ce1fc7a0ca21d99b71f87ab36db2c63154cd57",
-    "https://joseluiseiguren.github.io/angular_pwa_example/main-es2015.c72fb4b10c4c38c372b2.js": "4afe6575af5e4ab9f137c7a7efb474059a100169",
-    "https://joseluiseiguren.github.io/angular_pwa_example/main-es5.0cb954c21f64c888f14d.js": "348fb619ca8637ec587aa220a664c9afac803dc6",
+    "https://joseluiseiguren.github.io/angular_pwa_example/index.html": "d2b2243e91db565a880b35b4b04ab3c9bda1dc04",
+    "https://joseluiseiguren.github.io/angular_pwa_example/main-es2015.8e9c772960c804e6f60c.js": "37376db6b7b28205a797cf66020f727e29268563",
+    "https://joseluiseiguren.github.io/angular_pwa_example/main-es5.e44c1fc18c1cfbf77348.js": "f90203898220c5e2e4c74699148ae0ba27736232",
     "https://joseluiseiguren.github.io/angular_pwa_example/manifest.webmanifest": "91f602df153524c21dc26a3f9e3c87e02b8a4b21",
     "https://joseluiseiguren.github.io/angular_pwa_example/polyfills-es2015.824ed6a46aafd5221e6b.js": "f33238825850a8007585a1a80e02e1248268682d",
     "https://joseluiseiguren.github.io/angular_pwa_example/polyfills-es5.920399604bb2dc2cacae.js": "9d9b583788005b7e2dc51d2b965f7c09b9180c60",
