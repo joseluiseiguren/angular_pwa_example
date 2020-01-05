@@ -25,16 +25,36 @@ import { MatToolbarModule,
          MatTableModule,
          MatDatepickerModule } from  '@angular/material';
 
+import { MatListModule } from '@angular/material/list';
 import { MatStepperModule  } from '@angular/material/stepper';
 import { MatIconModule  } from '@angular/material/icon';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { MydialogComponent } from './mydialog/mydialog.component';
+import { FormsModule, ReactiveFormsModule }   from '@angular/forms';
+import { Page2Component } from './page2/page2.component';
+import { Routes, RouterModule, PreloadAllModules } from '@angular/router';
+import { MainpageComponent } from './mainpage/mainpage.component';
+import { Page1Component } from './page1/page1.component';
+
+const routes: Routes = [    
+  {path: '', redirectTo: '/main', pathMatch: 'full'},
+  { path: 'main',
+    component: MainpageComponent,
+    children: [
+      { path: 'page1', component: Page1Component },
+      { path: 'page2', component: Page2Component },
+    ]  
+  }  
+];  
 
 @NgModule({
   declarations: [
     AppComponent,
-    MydialogComponent
+    MydialogComponent,
+    Page2Component,
+    MainpageComponent,
+    Page1Component
   ],
   entryComponents: [ MydialogComponent ],
   imports: [
@@ -63,9 +83,14 @@ import { MydialogComponent } from './mydialog/mydialog.component';
     MatDialogModule,
     MatSnackBarModule,
     MatTableModule,
-    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
+    FormsModule,
+    ReactiveFormsModule,
+    MatListModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
+    RouterModule.forRoot(routes, { useHash: false, preloadingStrategy: PreloadAllModules }),
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule { }
+
